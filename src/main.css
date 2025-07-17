@@ -1,5 +1,27 @@
+/* Import 'Work Sans' From Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Reset default browser styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set base font for the website */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Custom CSS Variables and Theme Colors */
+:root {
+  --primary-color: rgba(255, 144, 14, 1);
+  --primary-bg: rgba(255, 144, 14, 0.1);
+  --dark-1: #131313;
+  --dark-2: #424242;
+  --dark-3: #727272;
+  --dark-4: #a1a1a1;
+  --dark-5: #d0d0d0;
+  --dark-6: #e7e7e7;
+  --dark-6: #f3f3f3;
 }
